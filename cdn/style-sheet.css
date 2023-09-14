@@ -1,7 +1,14 @@
 .header-inner{
+    background-image: url(/img/bg-kras.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 101% 232%;
     text-align: center;
-    background-color: #ee6c10;
-    padding-bottom: 25px;
+}
+.header-inner .container-fluid{
+    background-color: #1a1818bf;
+    padding: 30px;
+    padding-bottom: 50px;
 }
         .header-inner h2{
     margin-bottom: 0px;
