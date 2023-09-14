@@ -1345,7 +1345,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     
-
+<style>
+  .close-btn{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 6px;
+    top: 0px;
+}
+</style>
 
 <div
     style="--tw-bg-opacity: 0;"
@@ -1354,8 +1362,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="sf-menu__content transition-transform -translate-x-full duration-300 md:w-[450px] z-50 bg-white text-black overflow-x-hidden h-full overflow-y-scroll">
         <div class="flex flex-col">
             <div class="sf-menu-content flex-grow flex flex-col justify-between transition-all opacity-0 opacity-100 duration-300">
-                <div class="w-full sf-menu-links pt-8">
-                    
+             
+              <div class="w-full sf-menu-links pt-8">
+                <i class="fa fa-close close-btn"></i>
                   <li class="list-none sf-link" data-url="index.html">
                     <a href="index.html" class="w-full px-4 py-3 flex items-center justify-between" style="color:#000;">
                         <span>Home</span>
@@ -1988,15 +1997,31 @@ top: -33px;
 
 [type=submit], button {
     -webkit-appearance: button;
-    background-color: #00415d;
+    background-color: #fff;
     background-image: none;
     width: 88%;
-    color: #fff;
+    color: #00415d;
+    padding: 9px;
+    font-size: 15px;
+}
+
+.button--1{
+    -webkit-appearance: button;
+    background-color:#00415d;
+    background-image: none;
+    width: 88%;
+    color:#fff;
     padding: 9px;
     font-size: 15px;
 }
 .get-in-side-logo{
 margin-top: 90px;
+}
+
+@media screen and (max-width:786px){
+  .get-in-side-logo{
+margin-top:auto;
+}
 }
 </style>
 
@@ -2020,7 +2045,7 @@ margin-top: 90px;
 
         
 <br>
-        <button type="submit">Submit</button>
+        <button type="submit" class="button--1">Submit</button>
       </form>
     </div>
   </div>
@@ -2465,6 +2490,15 @@ margin-top: 90px;
 .offer .col-md-4, .offer .col-md-12{
   padding: 0px 2px;
 }
+
+@media screen and (max-width:786px){
+  .offer .img-1{
+    height:auto;
+}
+.offer .img-2{
+    height:auto;
+}
+}
 </style>
 
 <section>
@@ -2614,6 +2648,10 @@ margin-top: 90px;
 .product-card-box img {
   
     height: 120px;
+}
+
+.sf__ms-wrapper .product-card-box img {
+    height: 240px;
 }
 .product-card-box .price {
     font-size:12px;
@@ -2921,21 +2959,43 @@ margin-top: 90px;
 
 
 <section
-    id="sf__collection-list-template--15311313109153__1644328501a49a5bcf"
-    data-section-type="collection-list"
-    data-section-id="template--15311313109153__1644328501a49a5bcf"
-    class="collection-list collection-list--grid collection-list--slider-initialized "
-    data-enable-slider="true"
     
-    data-gutter="21"
-   
-data-items="5"
-    data-autoplay="false"
-    data-autoplay-speed="5"
-    
-    
-    data-hover-effect="scaling-down"
-    data-container="container-fluid"
+id="sf__collection-list-template--15311313109153__1644328501a49a5bcf"
+data-section-type="collection-list"
+data-section-id="template--15311313109153__1644328501a49a5bcf"
+class="collection-list collection-list--grid collection-list--slider-initialized "
+data-enable-slider="true"
+ 
+data-loop="true" 
+data-items="3" 
+data-margin="30" 
+data-autoplay="true" 
+data-hoverpause="true" 
+data-autoplay-timeout="5000" 
+data-smart-speed="800" 
+data-dots="true" 
+data-nav="false" 
+data-nav-speed="false" 
+
+data-md-device="3" 
+data-md-device-nav="false" 
+data-md-device-dots="true" 
+data-center-mode="false"
+
+data-ipad-device2="2" 
+data-ipad-device-nav2="false" 
+data-ipad-device-dots2="true"
+
+data-ipad-device="2" 
+data-ipad-device-nav="false" 
+data-ipad-device-dots="true" 
+
+data-mobile-device="1" 
+data-mobile-device-nav="false" 
+data-mobile-device-dots="true"
+
+data-hover-effect="scaling-down"
+data-container="container-fluid"
     style="background-color:#80808021 ;"
 >
     <div class="
@@ -3219,7 +3279,8 @@ z-index: 999999;">
 
 
 
-</div><div id="shopify-section-template--15311313109153__665e16f5-a086-4b92-aa37-6a199079c8f7" class="shopify-section">
+</div><div id="shopify-section-template--15311313109153__665e16f5-a086-4b92-aa37-6a199079c8f7" 
+class="shopify-section">
 
   
   
@@ -3248,12 +3309,34 @@ data-section-type="collection-list"
 data-section-id="template--15311313109153__1644328501a49a5bcf"
 class="collection-list collection-list--grid collection-list--slider-initialized "
 data-enable-slider="true"
+ 
+data-loop="true" 
+data-items="3" 
+data-margin="30" 
+data-autoplay="true" 
+data-hoverpause="true" 
+data-autoplay-timeout="5000" 
+data-smart-speed="800" 
+data-dots="true" 
+data-nav="false" 
+data-nav-speed="false" 
 
-data-gutter="21"
-data-items="1"
-data-autoplay="false"
-data-autoplay-speed="5"
+data-md-device="3" 
+data-md-device-nav="false" 
+data-md-device-dots="true" 
+data-center-mode="false"
 
+data-ipad-device2="2" 
+data-ipad-device-nav2="false" 
+data-ipad-device-dots2="true"
+
+data-ipad-device="2" 
+data-ipad-device-nav="false" 
+data-ipad-device-dots="true" 
+
+data-mobile-device="1" 
+data-mobile-device-nav="false" 
+data-mobile-device-dots="true"
 
 data-hover-effect="scaling-down"
 data-container="container-fluid"
@@ -3280,11 +3363,13 @@ data-container="container-fluid"
 
 <div class="sf-slider__controls flex items-center justify-center mt-5 md:mt-0 -mx-2 ">
     
-    <button class="sf-slider__controls-button swiper-button-prev sf-slider__controls-prev border sm:hover:border-black rounded-full cursor-pointer mx-2 ">
+    <button class="sf-slider__controls-button swiper-button-prev sf-slider__controls-prev 
+    border sm:hover:border-black rounded-full cursor-pointer mx-2 ">
         
 
 
-        <svg width="14px" height="14px" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"/></svg>
+        <svg width="14px" height="14px" fill="currentColor" xmlns="http://www.w3.org/2000/svg" 
+        viewBox="0 0 448 512"><path d="M229.9 473.899l19.799-19.799c4.686-4.686 4.686-12.284 0-16.971L94.569 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H94.569l155.13-155.13c4.686-4.686 4.686-12.284 0-16.971L229.9 38.101c-4.686-4.686-12.284-4.686-16.971 0L3.515 247.515c-4.686 4.686-4.686 12.284 0 16.971L212.929 473.9c4.686 4.686 12.284 4.686 16.971-.001z"/></svg>
     
 
     </button>
@@ -3555,13 +3640,6 @@ data-container="container-fluid"
               </div>
           </div>
 
-
-
-           
-            
-            
-              
-            
         </div>
     </div>
 </div>
