@@ -130,11 +130,15 @@ label {
             color: #2a166e;
             font-size: 30px;
         }
+        .checkbox-sjjj{
+    width: auto;
+}
 </style>
 
 </head>
 <body>
 
+   
    
    <section>
        <div class="container-fluid">
@@ -145,6 +149,13 @@ label {
            </div>
        </div>
    </section>
+   
+   <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
    <section class="registration-form">
     <div class="container">
@@ -156,7 +167,13 @@ label {
         ">
 
 <div class="row">
-    <h3 class="main-heading">Registration Form</h3>
+    <div class="col-md-4">
+        <div id="google_translate_element"></div>
+     </div>
+     <div class="col-md-12">
+        <h3 class="main-heading">Registration Form</h3>
+     </div>
+    
     <div class="col-md-12 heading">
        <p>Basic Information</p>
       </div>
@@ -201,7 +218,7 @@ label {
                 <input type="text" placeholder="Enter Your Address" id="Name"/>
               </div>
 
-              <div class="col-md-4">
+            <!--  <div class="col-md-4">
                 <label>City/District :</label>
                 <input type="text" placeholder="Enter Your City" id="Name"/>
               </div>
@@ -210,7 +227,7 @@ label {
                 <label>State :</label>
                 <input type="text" placeholder="Enter Your State" id="Name"/>
               </div>
-
+-->
             <div class="row">
                 <div class="col-md-12 heading">
                    <p>Business Information</p>
@@ -226,19 +243,31 @@ label {
               
               <div class="col-md-4">
                 <label>Business Type :</label>
-                <select>
-                    <option>Select Business Type</option>
-                    <option>Gali</option>
-                    <option>Jewellery</option>
-                    <option>Wholesale Business</option>
-                    <option>Bullion</option>
-                    <option>Computerised Testing</option>
-                    <option>Hallmarking</option>
-                    <option>Jewellery + Wholesale</option>
-                    <option>Gali + Wholesale</option>
-                    <option>Bullion + Jewellery</option>
-                    <option>Other</option>
-                </select>
+            
+<br>
+  <input type="checkbox" id="business-1" name="business-1" value="Galaye" class="checkbox-sjjj">
+  <label for="business-1"> Galaye</label>
+  <input type="checkbox" id="business-3" name="business-2" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Jewellery</label><br>
+  <input type="checkbox" id="business-3" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Wholesale Business</label> 
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2">Bullion</label><br> 
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Computerised Testing</label>
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Hallmarking</label><br> 
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Jewellery + Wholesale</label>
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Galaye + Wholesale</label><br> 
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Bullion + Jewellery</label>
+  <input type="checkbox" id="business-4" name="business-3" value="Jewellery" class="checkbox-sjjj">
+  <label for="business-2"> Other</label>
+
+
+
               </div>
 
               
@@ -254,7 +283,7 @@ label {
 </div>
 <div class="row">
     <div class="col-md-12 heading">
-       <p>Registration Fee 200/- </p>
+       <p>Registration Fee  </p>
       </div>
   <div class="col-md-4">
     <label>Bank Details:</label>
@@ -264,15 +293,16 @@ label {
     color: #6a6a6a;
     font-family: emoji;
 ">
-<strong>Upi Id :</strong> bharatpayhhh@upijhjj<br>
-<strong>Pay to :</strong> 9999999999
+<strong>Bank Name:</strong> Punjab National Bank<br>
+<strong>A/C:</strong> 4226002100008919<br>
+<strong>IFSC Code :</strong> PUNB0422600
     </p>
     
   </div>
 
   <div class="col-md-4" style="text-align: center;">
     <label>Scan For Payment</label><br>
-  <img src="img/bar-code.png" style="width: 40%;"></div>
+  <img src="img/bar-code.jpg" style="width: 40%;"></div>
 
   <div class="col-md-4">
     <label>Upload Payment Recipt:</label>
@@ -291,6 +321,37 @@ label {
 <div class="col-md-4">
     <label>Upload Your Photo :</label>
     <input type="file" id="Name"/>
+  </div>
+
+  </div>
+
+  
+<div class="row">
+    <div class="col-md-12 heading">
+       <p>Permanent Address </p>
+      </div>
+<div class="col-md-4">
+    <label>Village :</label>
+    <input type="text" placeholder="Enter Your Village" id="Name"/>
+  </div>
+
+  <div class="col-md-4">
+      <label>Tehsil :</label>
+      <input type="text" placeholder="Enter Your Tehsil" id="Name"/>
+    </div>
+    
+  <div class="col-md-4">
+    <label>District :</label>
+    <input type="text" placeholder="Enter Your District" id="Name"/>
+  </div>
+  <div class="col-md-4">
+      <label>State :</label>
+      <input type="text" placeholder="Enter Your State" id="Name"/>
+    </div>
+    
+  <div class="col-md-4">
+    <label>Pincode :</label>
+    <input type="number" placeholder="Enter Your Pincode" id="Name"/>
   </div>
 
   </div>
@@ -319,7 +380,7 @@ label {
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>For Any Enquiry Contact us at <a href="#">9999999999</a></p>
+                <p>For Any Enquiry Contact us at <a href="tel:9756218100">9756218100</a></p>
             </div>
            
         </div>
