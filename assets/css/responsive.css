@@ -18,7 +18,7 @@
 @media only screen and (max-width: 1399px) {
 	.main-menu .navigation>li>a {
 		font-size: 17px;
-		padding: 0px 15px;
+		padding: 0px 10px;
 	}
 
 	.info-form-section .signal-image-one,
@@ -539,7 +539,7 @@
 	.cta-section h2,
 	.feature-banner-section h2,
 	.sec-title h2 {
-		font-size: 18px;
+		font-size:14px;
 		line-height: 28px;
 		text-align: center;
 	}
