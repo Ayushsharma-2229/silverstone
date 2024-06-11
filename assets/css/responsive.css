@@ -17,8 +17,8 @@
 
 @media only screen and (max-width: 1399px) {
 	.main-menu .navigation>li>a {
-		font-size: 17px;
-		padding: 0px 10px;
+		font-size: 18px;
+		padding:1px 10px;
 	}
 
 	.info-form-section .signal-image-one,
@@ -38,7 +38,7 @@
 	}
 
 	.left-column .left-img-column {
-		max-width: 370px;
+		max-width: 500px;
 	}
 
 	.left-column .right-img-content h1 {
@@ -529,7 +529,7 @@
 
 	.main-footer {
 		padding-top: 1px;
-		background: #740F13 !important;
+		background:#1f2f52 !important;
 	}
 }
 
