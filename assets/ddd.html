@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vertical Scroll Background Color Change</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height:2500px; /* Adjust height as per your content */
+        background-color:; /* Initial background color */
+        transition: background-color 0.5s ease; /* Smooth transition effect */
+    }
+
+    @keyframes colorChange {
+        0% {
+            background-color: red; /* Initial background color */
+        }
+        50% {
+            background-color: #a0a0a0; /* Color at halfway through scroll */
+        }
+        100% {
+            background-color: #404040; /* Final background color */
+        }
+    }
+    
+    /* Apply animation to body when scrolling */
+    @media screen and (min-width: 768px) {
+        body {
+            animation: colorChange 5s infinite; /* Adjust animation duration as needed */
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- Your content goes here -->
+    <h1>Scroll down to see the background color change effect!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique mauris non nisi consequat, eu bibendum leo tincidunt. Aenean id bibendum felis. Donec eget est nec lorem placerat ultrices et id velit. Phasellus sed mi vel ex rutrum auctor.</p>
+    <!-- Add more content to extend the height of the page for scrolling -->
+</body>
+</html>
