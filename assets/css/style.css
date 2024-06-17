@@ -60,6 +60,9 @@ strong {
 
 ***/
 
+#baguetteBox-overlay{
+    display:none;
+}
 
 
 body {
